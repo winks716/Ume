@@ -25,154 +25,122 @@
 <body>
 <!-- Home -->
 <div data-role="page" id="homePage">
-    <div class="indexHeader" id="indexHeader" data-theme="b" data-role="header">
-        <h3 class="indexHeaderTitle" id="indexHeaderTitle">
-            Usmart
-        </h3>
-    </div>
-    <div data-role="content">
-        <div class="indexNav" id="indexNav" data-role="navbar" data-iconpos="right">
-            <ul>
-                <li>
-                    <a href="#homePage" data-transition="fade" data-theme="" data-icon="" class="ui-btn-active ui-state-persist">
-                        客厅
-                    </a>
-                </li>
-                <li>
-                    <a href="#homePage" data-transition="fade" data-theme="" data-icon="">
-                        餐厅
-                    </a>
-                </li>
-                <li>
-                    <a href="#homePage" data-transition="fade" data-theme="" data-icon="">
-                        主卧
-                    </a>
-                </li>
-                <li>
-                    <a href="#geoPage" data-transition="fade" data-theme="" data-icon="">
-                        定位
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <ul class="indexList" id="indexList" data-role="listview" data-divider-theme="b"
-        data-inset="true">
-            <li data-role="list-divider" role="heading">
-                区域选择
-            </li>
-            <li data-theme="c">
-                <a href="#homePage" data-transition="slide">
-                    客厅
-                </a>
-            </li>
-            <li data-theme="c">
-                <a href="#homePage" data-transition="slide">
-                    餐厅
-                </a>
-            </li>
-            <li data-theme="c">
-                <a href="#homePage" data-transition="slide">
-                    主卧
-                </a>
-            </li>
-            <li data-theme="c">
-                <a href="#homePage" data-transition="slide">
-                    次卧
-                </a>
-            </li>
-            <li data-theme="c">
-                <a href="#homePage" data-transition="slide">
-                    厨卫
-                </a>
-            </li>
-        </ul>
-        <div data-role="collapsible-set">
-            <div data-role="collapsible">
-                <h3>
-                    客厅
-                </h3>
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    餐厅
-                </h3>
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    主卧
-                </h3>
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    次卧
-                </h3>
-            </div>
-            <div data-role="collapsible" data-collapsed="false">
-                <h3>
-                    厨卫
-                </h3>
-            </div>
-        </div>
-        <div class="ui-grid-a">
-            <div class="ui-block-a">
-                <h3>
-                    主灯
-                </h3>
-            </div>
-            <div class="ui-block-b">
-                <div data-role="fieldcontain">
-                    <select name="toggleswitch2" id="toggleswitch2" data-theme="" data-role="slider">
-                        <option value="off">
-                            关
-                        </option>
-                        <option value="on">
-                            开
-                        </option>
-                    </select>
-                </div>
-            </div>
-            <div class="ui-block-a">
-                <h3>
-                    餐灯
-                </h3>
-            </div>
-            <div class="ui-block-b">
-                <div data-role="fieldcontain">
-                    <select name="toggleswitch3" id="toggleswitch3" data-theme="" data-role="slider">
-                        <option value="off">
-                            关
-                        </option>
-                        <option value="on">
-                            开
-                        </option>
-                    </select>
-                </div>
-            </div>
-            <div class="ui-block-a">
-                <h3>
-                    立式空调
-                </h3>
-            </div>
-            <div class="ui-block-b">
-                <div data-role="fieldcontain">
-                    <input id="slider1" name="slider" value="25" min="15" max="35" data-highlight="false"
-                    data-mini="true" type="range">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="indexFooter" id="indexFooter" data-theme="b" data-role="footer"
-    data-position="fixed">
-        <h3 class="indexFooterContent" id="indexFooterContent">
-            © U@ME-Studio
-        </h3>
+	<h1>homePage</h1>
+    <div class="indexNav" id="indexNav" data-role="navbar" data-iconpos="right">
+    <ul>
+        <li>
+            <a href="#homePage" data-transition="" data-theme="" data-icon="" class="ui-btn-active ui-state-persist">H</a>
+        </li>
+        <li>
+            <a href="#emailPage" data-transition="" data-theme="" data-icon="">E</a>
+        </li>
+        <li>
+            <a href="#toolPage" data-transition="" data-theme="" data-icon="">T</a>
+        </li>
+        <li>
+            <a href="#contactPage" data-transition="" data-theme="" data-icon="">C</a>
+        </li>
+        <li>
+            <a href="#mapPage" data-transition="" data-theme="" data-icon="">M</a>
+        </li>
+    </ul>
     </div>
 </div>
 
-<!-- Geo -->
-<div data-role="page" id="geoPage">
-    The result of GeoLocation:<br/>
-    <div id="geoResult">Waiting for response...</div>
+<!-- Mail -->
+<div data-role="page" id="emailPage">
+	<h1>emailPage</h1>
+    <div class="indexNav" id="indexNav" data-role="navbar" data-iconpos="right">
+    <ul>
+        <li>
+            <a href="#homePage" data-transition="" data-theme="" data-icon="">H</a>
+        </li>
+        <li>
+            <a href="#emailPage" data-transition="" data-theme="" data-icon="" class="ui-btn-active ui-state-persist">E</a>
+        </li>
+        <li>
+            <a href="#toolPage" data-transition="" data-theme="" data-icon="">T</a>
+        </li>
+        <li>
+            <a href="#contactPage" data-transition="" data-theme="" data-icon="">C</a>
+        </li>
+        <li>
+            <a href="#mapPage" data-transition="" data-theme="" data-icon="">M</a>
+        </li>
+    </ul>
+    </div>
+</div>
+
+<!-- Tool -->
+<div data-role="page" id="toolPage">
+    <h1>toolPage</h1>
+    <div class="indexNav" id="indexNav" data-role="navbar" data-iconpos="right">
+    <ul>
+        <li>
+            <a href="#homePage" data-transition="" data-theme="" data-icon="">H</a>
+        </li>
+        <li>
+            <a href="#emailPage" data-transition="" data-theme="" data-icon="">E</a>
+        </li>
+        <li>
+            <a href="#toolPage" data-transition="" data-theme="" data-icon="" class="ui-btn-active ui-state-persist">T</a>
+        </li>
+        <li>
+            <a href="#contactPage" data-transition="" data-theme="" data-icon="">C</a>
+        </li>
+        <li>
+            <a href="#mapPage" data-transition="" data-theme="" data-icon="">M</a>
+        </li>
+    </ul>
+    </div>
+</div>
+
+<!-- Contact -->
+<div data-role="page" id="contactPage">
+    <h1>contactPage</h1>
+    <div class="indexNav" id="indexNav" data-role="navbar" data-iconpos="right">
+    <ul>
+        <li>
+            <a href="#homePage" data-transition="" data-theme="" data-icon="">H</a>
+        </li>
+        <li>
+            <a href="#emailPage" data-transition="" data-theme="" data-icon="">E</a>
+        </li>
+        <li>
+            <a href="#toolPage" data-transition="" data-theme="" data-icon="">T</a>
+        </li>
+        <li>
+            <a href="#contactPage" data-transition="" data-theme="" data-icon="" class="ui-btn-active ui-state-persist">C</a>
+        </li>
+        <li>
+            <a href="#mapPage" data-transition="" data-theme="" data-icon="">M</a>
+        </li>
+    </ul>
+    </div>
+</div>
+
+<!-- Map -->
+<div data-role="page" id="mapPage">
+    <h1>mapPage</h1>
+    <div class="indexNav" id="indexNav" data-role="navbar" data-iconpos="right">
+    <ul>
+        <li>
+            <a href="#homePage" data-transition="" data-theme="" data-icon="">H</a>
+        </li>
+        <li>
+            <a href="#emailPage" data-transition="" data-theme="" data-icon="">E</a>
+        </li>
+        <li>
+            <a href="#toolPage" data-transition="" data-theme="" data-icon="">T</a>
+        </li>
+        <li>
+            <a href="#contactPage" data-transition="" data-theme="" data-icon="">C</a>
+        </li>
+        <li>
+            <a href="#mapPage" data-transition="" data-theme="" data-icon="" class="ui-btn-active ui-state-persist">M</a>
+        </li>
+    </ul>
+    </div>
 </div>
 
 </body>
